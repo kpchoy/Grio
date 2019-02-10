@@ -5,8 +5,12 @@ const Greeting = ({ currentUser, logout }) => {
   // debugger; 
   const sessionLinks = () => (
     <nav>
-      <Link to="/login">Login</Link>
-      <Link to="/signup">Sign up!</Link>
+      <div>
+        <Link to="/login">Login</Link>
+      </div>
+      <div>
+        <Link to="/signup">Sign up!</Link>
+      </div>
     </nav>
   );
 
