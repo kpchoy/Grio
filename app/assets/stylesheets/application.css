@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+ 
+
+.app {
+
+  height: 100vh;
+  /* position: relative; */
+} 
+
+.app-header {
+  height: 20%;
+}
+
+.app-content {
+  height: 80%;
+}
+
+.splash-counter {
+  background: red;  
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+ .counter-main {
+  background: orange;
+  display: flex;
+ }
