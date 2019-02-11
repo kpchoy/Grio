@@ -2,5 +2,5 @@
 
 Grio Takehome Assignment
 
-Backend: Ruby on Rails 
-Frontend: React/Redux
+- Backend: Ruby on Rails 
+- Frontend: React/Redux
