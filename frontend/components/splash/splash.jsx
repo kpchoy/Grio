@@ -11,7 +11,8 @@ const Splash = ({ currentUser}) => {
 
   const splash = () => (
     <div>
-      <h2>Splash Component</h2>
+      <h1>Splash Component</h1>
+      <h2>Login/Signup to use increment feature</h2>
     </div>
   );
 

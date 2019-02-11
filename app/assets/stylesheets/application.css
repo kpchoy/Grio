@@ -19,6 +19,8 @@
 
   height: 100vh;
   /* position: relative; */
+  width: 80%;
+  margin: auto;
 } 
 
 .app-header {
@@ -39,6 +41,25 @@
  .counter-main {
   /* background: orange; */
   display: flex;
+  align-items: center; 
+ }
+
+ .inc-button {
+   margin-left: 10px;
+   height: 30px;
+ }
+
+ .inc-button:hover {
+   cursor: pointer; 
+ }
+
+ .session-links {
+   display: flex;
+   font-size: 20px; 
+ }
+
+ .login {
+   margin-right: 10px; 
  }
 
  

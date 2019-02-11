@@ -61,20 +61,25 @@ export default class Counter extends Component {
     return (
       <div className="counter-main" >
         <h2>Count: {this.state.count} </h2>
-        <button onClick={this.openModal}>Increment</button>
+        <button 
+          onClick={this.openModal}
+          className="inc-button"
+        >
+        Increment
+        </button>
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
           style={customStyles}
           contentLabel="Example Modal"
         >
-          <form>
+          <div>
             <h3>Current Count : {this.state.count}</h3>
             <h3>Next Count: {this.state.nextCount}</h3>
 
             <button onClick={this.increment}>Confirm</button>
             <button onClick={this.closeModal}>Cancel</button>
-          </form>
+          </div>
         </Modal>
        
       </div>
