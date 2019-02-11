@@ -30,13 +30,15 @@
 }
 
 .splash-counter {
-  background: red;  
+  /* background: red;   */
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center; 
 }
  .counter-main {
-  background: orange;
+  /* background: orange; */
   display: flex;
  }
+
+ 
